@@ -15,7 +15,7 @@ export default function Feedback(){
 	                    headers: {
 	                      'Content-Type': 'application/json',
 	                    },
-	                    body: JSON.stringify({token_id:'5d2903e566c6ed619f3add445ebd4cda'}),
+	                    body: JSON.stringify({token_id:''}),
 	                  });
 	    const result =   await res.json();
 	    if(result.status){
