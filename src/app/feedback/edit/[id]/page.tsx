@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react';
 
 export default function Edit({params}){
 
-	const [formData, setFormData]  = useState({ id:params.id,title:'',description:'',token_id:'5d2903e566c6ed619f3add445ebd4cda'});
+	const [formData, setFormData]  = useState({ id:params.id,title:'',description:'',token_id:''});
 
 	useEffect(()=>{
 		getData();
